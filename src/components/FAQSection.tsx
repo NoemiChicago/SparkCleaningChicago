@@ -14,7 +14,7 @@ export default function FAQSection() {
     {
       id: 'faq-booking',
       question: 'How does the online quote calculator and booking system work?',
-      answer: 'Our instant estimator customizes your rate in real-time based on your service hours, frequency, and selected upgrades (like deep cleaning inside the oven or fridge) at transparent flat rates ($75/hr for standard, $95/hr for deep, $120/hr for move-out, and $150/hr for office & commercial) plus a flat $50 refundable security deposit for all bookings. After seeing your price, you simply enter your contact details, select a date and time slot, and click Book. No credit card is required upfront, and booking is entirely contract-free.'
+      answer: 'Our instant estimator customizes your rate in real-time based on your service hours, frequency, and selected upgrades (like deep cleaning inside the oven or fridge) at transparent flat rates ($75/hr for standard, $95/hr for deep, $120/hr for move-out, and $150/hr for office & commercial) plus a flat $75 non-refundable security deposit for all bookings. After seeing your price, you simply enter your contact details, select a date and time slot, and click Book. No credit card is required upfront, and booking is entirely contract-free.'
     },
     {
       id: 'faq-safety',

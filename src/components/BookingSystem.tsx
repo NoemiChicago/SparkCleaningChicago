@@ -42,7 +42,7 @@ export default function BookingSystem() {
 
   // Standard flat pricing of $75 per hour
   const HOURLY_RATE = 75;
-  const SECURITY_DEPOSIT = 50;
+  const SECURITY_DEPOSIT = 75;
 
   const extraItems = [
     { id: 'fridge', name: 'Inside Fridge Cleaning', price: 35, icon: '🧊' },
@@ -461,7 +461,7 @@ export default function BookingSystem() {
                     </div>
                     <div className="flex justify-between items-center text-xs">
                       <span className="text-slate-500">Security Deposit</span>
-                      <span className="font-bold text-slate-800 font-mono text-emerald-600 flex items-center gap-1">$50 <span className="text-[10px] text-slate-400 font-normal">(Refundable)</span></span>
+                      <span className="font-bold text-slate-800 font-mono text-emerald-600 flex items-center gap-1">$75 <span className="text-[10px] text-slate-400 font-normal">(Non Refundable)</span></span>
                     </div>
                     {extras.length > 0 && (
                       <div className="flex flex-col gap-1 pt-1 border-t border-slate-100">
@@ -573,7 +573,7 @@ export default function BookingSystem() {
                     </button>
                     
                     <p className="text-[10px] text-slate-400 text-center">
-                      🔒 No upfront payment required. Includes a refundable $50 security deposit. Modify or cancel any time for free up to 24 hours prior.
+                      🔒 Includes a non-refundable $75 security deposit.
                     </p>
                   </form>
 
@@ -648,7 +648,7 @@ export default function BookingSystem() {
                       <div className="col-span-2 text-slate-700 font-bold text-xs pt-1 flex justify-between items-end">
                         <div className="flex flex-col">
                           <span>Rate: <span className="font-semibold capitalize text-slate-500 font-mono">({b.frequency})</span></span>
-                          <span className="text-[9px] text-slate-400 font-normal italic leading-none mt-0.5">(Includes $50 security deposit)</span>
+                          <span className="text-[9px] text-slate-400 font-normal italic leading-none mt-0.5">(Includes $75 security deposit)</span>
                         </div>
                         <span className="font-mono text-sky-600 font-extrabold text-sm">${b.estimatedCost}</span>
                       </div>
