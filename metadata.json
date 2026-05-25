@@ -1,0 +1,6 @@
+{
+  "name": "Spark Cleaning Chicago",
+  "description": "Professional cleaning services in the Chicago area featuring instant booking, interactive price calculator, service gallery, and testimonials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
