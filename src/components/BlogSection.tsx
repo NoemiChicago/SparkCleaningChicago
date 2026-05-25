@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { BlogPost } from '../types';
 import { BookOpen, Search, Tag, Calendar, User, Clock, ArrowRight, CornerDownRight, Check, Send, Phone, Mail, HelpCircle } from 'lucide-react';
 
+import penthouseImg from '../assets/images/chicago_penthouse_1779682075439.png';
+import kitchenImg from '../assets/images/sparkling_kitchen_1779680631090.png';
+import bathroomImg from '../assets/images/luxury_bathroom_1779680652483.png';
+import townhouseImg from '../assets/images/townhouse_living_1779680669964.png';
+
 export default function BlogSection() {
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
@@ -30,7 +35,7 @@ export default function BlogSection() {
       category: "Company News",
       tags: ["Chicago Living", "Welcome", "About Us"],
       readTime: "3 min read",
-      image: "/src/assets/images/chicago_penthouse_1779682075439.png"
+      image: penthouseImg
     },
     {
       id: 'kitchen_tips',
@@ -46,7 +51,7 @@ export default function BlogSection() {
       category: "Kitchen Tips",
       tags: ["Kitchen Tips", "Deep Clean", "Organization"],
       readTime: "4 min read",
-      image: "/src/assets/images/sparkling_kitchen_1779680631090.png"
+      image: kitchenImg
     },
     {
       id: 'bathroom_tips',
@@ -62,7 +67,7 @@ export default function BlogSection() {
       category: "Bathroom Tips",
       tags: ["Bathroom Tips", "Sanitization", "Eco-Friendly"],
       readTime: "4 min read",
-      image: "/src/assets/images/luxury_bathroom_1779680652483.png"
+      image: bathroomImg
     },
     {
       id: 'livingroom_tips',
@@ -78,7 +83,7 @@ export default function BlogSection() {
       category: "Living Room",
       tags: ["Living Room", "Organization", "Spring Cleaning"],
       readTime: "5 min read",
-      image: "/src/assets/images/townhouse_living_1779680669964.png"
+      image: townhouseImg
     }
   ];
 

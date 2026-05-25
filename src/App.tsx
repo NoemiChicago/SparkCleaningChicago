@@ -8,6 +8,8 @@ import ContactForm from './components/ContactForm';
 import BlogSection from './components/BlogSection';
 import FAQSection from './components/FAQSection';
 
+import penthouseImg from './assets/images/chicago_penthouse_1779682075439.png';
+
 export default function App() {
   const contactPhone = "+1 (312) 956 - 4183";
   const contactEmail = "Ce.Noemi4700@Gmail.com";
@@ -114,7 +116,7 @@ export default function App() {
             {/* Main Generated High-Rise Image */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] group max-w-lg mx-auto">
               <img
-                src="/src/assets/images/chicago_penthouse_1779682075439.png"
+                src={penthouseImg}
                 alt="Beautiful clean Chicago high-rise luxury living room overlooking Lake Michigan skyline"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

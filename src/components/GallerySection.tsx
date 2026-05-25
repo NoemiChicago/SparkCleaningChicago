@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { Camera, RefreshCw, ZoomIn, Eye } from 'lucide-react';
 
+import penthouseImg from '../assets/images/chicago_penthouse_1779682075439.png';
+import kitchenImg from '../assets/images/sparkling_kitchen_1779680631090.png';
+import bathroomImg from '../assets/images/luxury_bathroom_1779680652483.png';
+import townhouseImg from '../assets/images/townhouse_living_1779680669964.png';
+
 interface GalleryPic {
   id: string;
   title: string;
@@ -24,7 +29,7 @@ export default function GallerySection() {
       id: 'pic1',
       title: 'Stunning Skyline Penthouse Clean',
       category: 'Living Room',
-      image: '/src/assets/images/chicago_penthouse_1779682075439.png',
+      image: penthouseImg,
       beforeDesc: 'Post-party clutter, dusty high-ceilings, smudged lakefront windows, and scattered layout.',
       afterDesc: 'Immaculate glass, polished hardwood flooring, dust-free custom furniture, and aligned layout.',
       chicagoNeighbourhood: 'The Loop, Chicago'
@@ -33,7 +38,7 @@ export default function GallerySection() {
       id: 'pic2',
       title: 'Spotless Modern Kitchen Deep-Clean',
       category: 'Kitchen',
-      image: '/src/assets/images/sparkling_kitchen_1779680631090.png',
+      image: kitchenImg,
       beforeDesc: 'Grease stains on range, fingerprint marks on steel, dirty tiles, and dull counter surfaces.',
       afterDesc: 'Sanitized marble countertops, gleaming subway tiles, finger-print-free stainless appliances.',
       chicagoNeighbourhood: 'Lincoln Park, Chicago'
@@ -42,7 +47,7 @@ export default function GallerySection() {
       id: 'pic3',
       title: 'Pristine Glass & Tile Bath Reset',
       category: 'Bathroom',
-      image: '/src/assets/images/luxury_bathroom_1779680652483.png',
+      image: bathroomImg,
       beforeDesc: 'Water scum on glass, dusty towels, dull faucets, and light hard-water tile buildup.',
       afterDesc: 'Spotless high-gloss glass doors, polished chrome faucets, folded display towels, flawless grout.',
       chicagoNeighbourhood: 'Gold Coast, Chicago'
@@ -51,7 +56,7 @@ export default function GallerySection() {
       id: 'pic4',
       title: 'Sparkling Historic Townhouse Living Room',
       category: 'Living Room',
-      image: '/src/assets/images/townhouse_living_1779680669964.png',
+      image: townhouseImg,
       beforeDesc: 'Pet dander on carpets, chaotic bookshelves, fingerprints on millwork, and dusty window frames.',
       afterDesc: 'All surfaces sanitized, pristine custom vacuum pattern, orderly bookshelves, and allergens removed.',
       chicagoNeighbourhood: 'Wicker Park, Chicago'
